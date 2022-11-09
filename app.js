@@ -22,7 +22,6 @@ app.use(notFoundHandlerMiddleware)
 app.use(errorHandlerMiddleware)
 
 // ! App
-
 const start = () => {
   try {
     app.listen(port, console.log(`Listening on: http://localhost:${port}/`.brightCyan.bold))
